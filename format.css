@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(65, 216, 60);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 240%;
+    text-transform: uppercase;
+    text-justify: auto;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main{
+    margin: 150px auto 200px auto;
+    border: outset;
+    background-color: rgba(146, 22, 184, 0.3);
+    text-align: center;
+    width: 400px;
+    border-width: 1px;
+    border-color: wheat;
+    align-self: center;
+    border-radius: 10px;
+
+}
+
+#output,#entry{
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    height: 100px;
+    margin-top: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+#entry{
+    background-color: rgba(240, 217, 16, 0.3);
+}
+
+#output{
+    background-color: rgba(233, 32, 32, 0.3);
+}
+
+button{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: inset;
+    border-radius: 2px;
+    border: 3px;
+    margin-top: 20px;
+}
+#btn_output{
+    background-color: rgba(39, 218, 23, 0.7);
+}
+
+#btn_output:hover{
+    background-color: blue;
+}
+
+#btn_entry{
+    background-color: rgba(53, 228, 37, 0.945);
+}
+
+#btn_entry:hover{
+    background-color: blueviolet;
+}
+
+#text_output{
+    margin-top: 10px;
+    border-radius: 2px;
+    border: outset;
+}
+p{
+    font-style: italic;
+    color: rgba(39, 218, 23, 1);
+}
